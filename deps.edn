@@ -1,0 +1,8 @@
+{
+    :deps {
+        compojure {:mvn/version "1.6.1"}
+        ring/ring {:mvn/version "1.8.0"}
+    }
+}
+; {:deps {compojure/compojure {:mvn/version "1.6.1"}}
+; }

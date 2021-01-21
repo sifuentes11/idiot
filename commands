@@ -1,0 +1,5 @@
+autoformat:
+clojure -Sdeps '{:deps {cljfmt {:mvn/version "0.6.4"}}}'   -m cljfmt.main fix
+
+run code:
+clojure -m idiot -r dir write-tree
